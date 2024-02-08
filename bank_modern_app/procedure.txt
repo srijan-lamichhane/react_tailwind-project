@@ -1,0 +1,16 @@
+//project setup
+npm create vite@latest
+npm install - for dependencies
+npm run dev - to run development server
+//tailwind setup
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init - p
+
+
+//change code in tailwind.config.js -- as per the requirement
+
+// change index.css -- 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+plus required css applicable for entire project.
