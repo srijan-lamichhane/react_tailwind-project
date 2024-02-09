@@ -1,4 +1,4 @@
-//project setup
+1.//project setup
 npm create vite@latest
 npm install - for dependencies
 npm run dev - to run development server
@@ -7,10 +7,11 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init - p
 
 
-//change code in tailwind.config.js -- as per the requirement
+2.//change code in tailwind.config.js -- as per the requirement
 
-// change index.css -- 
+3.// change index.css -- 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 plus required css applicable for entire project.
+
