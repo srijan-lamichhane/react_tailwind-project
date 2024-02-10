@@ -15,3 +15,8 @@ npx tailwindcss init - p
 @tailwind utilities;
 plus required css applicable for entire project.
 
+4.// delete app.css
+5.// src:: constants:: index.js (for importing images and constants)
+
+6.// app.jsx --> remove return, curly braces and add paranthesis.
+7.// style.js added in src.
