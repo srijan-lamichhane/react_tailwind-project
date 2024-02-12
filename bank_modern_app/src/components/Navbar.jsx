@@ -4,7 +4,7 @@ import {close, logo, menu} from '../assets'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='w-full flex py-6 justify-between items-center navbar'>
       <img src="{logo}" alt="WixBank" className='w-[124px] h-[32px]'/>
       <ul>
         <li><a href='#'>Home</a></li>
