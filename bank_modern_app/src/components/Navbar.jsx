@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src="{logo}" alt="WixBank" className='w-[124px] h-[32px]'/>
+      <img src={logo} alt="WixBank" className='w-[124px] h-[32px]'/>
 
 
       <ul className='list-none justify-end items-center flex-1 hidden sm:flex'>
@@ -38,10 +38,10 @@ const Navbar = () => {
 
 
 
-      <div className={` ${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min.w-[140px] rounded-xl sidebar`}>
+      <div className={` ${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
         {/* we have used side-top animation in sidebar (code in index.css) */}
           
-        <ul className='list-none justify-end items-center flex-1 flex flex-col'> {/* little change form above */}
+        <ul className='list-none justify-end items-start flex-1 flex flex-col'> {/* little change form above */}
         {navLinks.map((nav,index) => (
 
        <li
