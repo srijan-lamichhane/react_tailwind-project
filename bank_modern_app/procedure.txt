@@ -20,3 +20,10 @@ plus required css applicable for entire project.
 
 6.// app.jsx --> remove return, curly braces and add paranthesis.
 7.// style.js added in src.
+
+8.// add code and sections in app.jsx and make file structure accordingly.
+
+9.// navbar --> const navLinks is created in index.js (containing id and title) then it is mapped in navbar.jsx (in parameter nav) 
+     and list is looped with in it extracting the req value. menu bar for small device
+
+10.// Hero -->

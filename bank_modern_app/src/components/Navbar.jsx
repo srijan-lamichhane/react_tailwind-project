@@ -12,6 +12,7 @@ const Navbar = () => {
 
 
       <ul className='list-none justify-end items-center flex-1 hidden sm:flex'>
+        {/* class hidden sm:flex, the element will be hidden by default (hidden class), but it will become visible when the screen width is equal to or larger than the small (sm 768px) breakpoint (sm:flex class). So, it will be visible on small screens and larger. */}
         {navLinks.map((nav,index) => (
 
        <li
