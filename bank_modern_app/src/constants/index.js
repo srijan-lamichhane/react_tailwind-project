@@ -19,4 +19,22 @@ export const navLinks = [
     title: 'Clients',
   }
 ];
+
+export const stats = [
+  {
+    id: 'stats-1',
+    value: '3800+',
+    title: 'USER ACTIVE'
+  },
+  {
+    id: 'stats-2',
+    value: '230+',
+    title: 'TRUSTED BY COMPANY',
+  },
+  {
+    id: 'stats-3',
+    value: '$230M+',
+    title: 'TRANSACTION',
+  }
+];
   
