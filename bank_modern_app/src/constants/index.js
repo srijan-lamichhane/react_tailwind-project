@@ -52,7 +52,7 @@ export const features = [
     content: "We take proactive steps make sure your information and transactions are secure.",
   },
   {
-    id: "feature-1",
+    id: "feature-3",
     icon: send,
     title: "Balance Transfer",
     content: "A balance transfer credit card can save you a lot of money in interest charges.",
