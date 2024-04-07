@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star} from '../assets'
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, logo} from '../assets'
 
 // for the navigation link
 export const navLinks = [
@@ -81,5 +81,24 @@ export const feedback = [
   title: "Founder & Leader",
   img: people03,
 },
+];
+
+export const clients = [
+  {
+    id: "clients-1",
+    logo: airbnb,
+  },
+  {
+    id: "clients-2",
+    logo: binance,
+  },
+  {
+    id: "clients-3",
+    logo: coinbase,
+  },
+  {
+    id: "clients-4",
+    logo: dropbox,
+  },
 ];
   
