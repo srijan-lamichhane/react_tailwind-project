@@ -101,4 +101,97 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+
+export const footerLinks = [
+  {
+    title: "Useful Links",
+    links: [
+      {
+        name: "Content",
+        link: "",
+      },
+      {
+        name: "How it works",
+        link: "",
+      },
+      {
+        name: "Create",
+        link: "",
+      },
+      {
+        name: "Explore",
+        link: "",
+      },
+      {
+        name: "Terms and Services",
+        link: "",
+      },
+    ],
+  },
+
+  {
+    title: "community",
+    links: [
+      {
+        name: "Help Center",
+        link: "",
+      },
+      {
+        name: "Partner",
+        link: "",
+      },
+      {
+        name: "Suggestions",
+        link: "",
+      },
+      {
+        name: "Blog",
+        link: "",
+      },
+      {
+        name: "Newsletters",
+        link: "",
+      },
+    ],
+  },
+
+  {
+    title: "partner",
+    links: [
+      {
+        name: "Our Partner",
+        link: "",
+      },
+      {
+        name: "Become a Partner",
+        link: "",
+      },
+    ],
+  }
+];
   
+
+
+export const socialMedia = [
+  {
+    id: "sm-1",
+    icon: instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "sm-2",
+    icon: facebook,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "sm-3",
+    icon: twitter,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "sm-4",
+    icon: linkedin,
+    link: "https://www.instagram.com/",
+  },
+];
